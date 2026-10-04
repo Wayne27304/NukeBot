@@ -16,10 +16,6 @@
 - Discord 帳號與開發者權限
 - Git (用於下載程式)
 
-
-## 授權
-本專案採用 [MIT License](LICENSE) 授權
-
 ---
 
 ## 開始使用
@@ -57,3 +53,8 @@ python app.py
 
 1. https://github.com/weiwei54321/discord_user_app_nuke
 2. LY Nuke (在DiscordServer開源，但我已經退了)
+
+---
+
+## 授權
+本專案採用 [MIT License](LICENSE) 授權
