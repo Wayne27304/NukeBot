@@ -41,5 +41,19 @@ python -m pip install -U discord.py aiohttp
 python app.py
 ```
 
+---
+
+## 使用說明
+
+1. 使用 /send 發送5則 custom_msg 函數
+2. 使用 /nuke 來炸群 (刪除頻道更換頻道名稱等等)
+3. 使用 /bye  刪除所有頻道
+4. 使用 /stop 停止所有炸群動作 (beta)
+5. 使用 /pro_send 自訂炸群訊息
 
 ---
+
+## 參考
+
+1. https://github.com/weiwei54321/discord_user_app_nuke
+2. LY Nuke (在DiscordServer開源，但我已經退了)
